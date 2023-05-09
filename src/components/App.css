@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&family=Titillium+Web:ital,wght@1,300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* border: none; */
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+/* h3{
+    color: green;
+    font-size: 2.2rem;
+    /* font-weight: bold; 
+} */
+
+.App{
+    /* background: blue;
+     */
+    min-height: 100vh;
+    overflow-x: hidden ;
+    overflow-y: hidden ;
+}
+
+.content-body{
+    background-color: #1f242d;
+    border-radius:1rem;
+    /* background-color: skyblue; */
+}
+
+.form-button{
+    background-color: rgb(63, 160, 205);
+    /* background-color: skyblue; */
+    color: black;
+}
+.form-button:hover{
+    background-color: rgb(146, 195, 217);
+    color: black;
+}
+
+.btn_{
+    /* display: inline-block; */
+    /* padding: 1rem 2.8rem; */
+    background: #0ef;
+    border-radius: 4rem;
+    border: none;
+    box-shadow: none;
+    /* font-size: 1.6rem; */
+    color: #1f242d;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn_:hover{
+    color: #323946;
+    box-shadow: 0 0 0.4rem rgba(134, 147, 148,0.8);
+    background: #0ef;
+}
+
+.table th , .table td{
+    padding: 0.75rem;
+    vertical-align: top;
+    
+}
+
+span{
+    color: #0ef;
+}
